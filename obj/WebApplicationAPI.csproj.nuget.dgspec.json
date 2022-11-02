@@ -1,37 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desarrollo\\.Net\\2022-02-24\\WebAplicationAPI\\WebApplicationAPI\\WebApplicationAPI\\WebApplicationAPI.csproj": {}
+    "C:\\Users\\EY\\Documents\\Desarrollo\\.Net\\ofertras-empleo-api\\ofertras-empleo-api\\WebApplicationAPI.csproj": {}
   },
   "projects": {
-    "D:\\Desarrollo\\.Net\\2022-02-24\\WebAplicationAPI\\WebApplicationAPI\\WebApplicationAPI\\WebApplicationAPI.csproj": {
+    "C:\\Users\\EY\\Documents\\Desarrollo\\.Net\\ofertras-empleo-api\\ofertras-empleo-api\\WebApplicationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\.Net\\2022-02-24\\WebAplicationAPI\\WebApplicationAPI\\WebApplicationAPI\\WebApplicationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\EY\\Documents\\Desarrollo\\.Net\\ofertras-empleo-api\\ofertras-empleo-api\\WebApplicationAPI.csproj",
         "projectName": "WebApplicationAPI",
-        "projectPath": "D:\\Desarrollo\\.Net\\2022-02-24\\WebAplicationAPI\\WebApplicationAPI\\WebApplicationAPI\\WebApplicationAPI.csproj",
-        "packagesPath": "C:\\Users\\ERNESTO YARIEL\\.nuget\\packages\\",
-        "outputPath": "D:\\Desarrollo\\.Net\\2022-02-24\\WebAplicationAPI\\WebApplicationAPI\\WebApplicationAPI\\obj\\",
+        "projectPath": "C:\\Users\\EY\\Documents\\Desarrollo\\.Net\\ofertras-empleo-api\\ofertras-empleo-api\\WebApplicationAPI.csproj",
+        "packagesPath": "C:\\Users\\EY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EY\\Documents\\Desarrollo\\.Net\\ofertras-empleo-api\\ofertras-empleo-api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ERNESTO YARIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.nuget.org/": {},
-          "https://www.nuget.org/downloads": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -81,11 +76,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.25, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[5.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

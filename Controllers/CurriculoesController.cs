@@ -102,7 +102,7 @@ namespace WebApplicationAPI.Controllers
             if (curriculoexis == null)
             {
                 _context.Curriculos.Add(curriculo);
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();  
 
             }
             return CreatedAtAction("GetCurriculo", new { id = curriculo.Id }, curriculo);
